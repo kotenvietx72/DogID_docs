@@ -192,33 +192,6 @@ flowchart TD
 
 Xác suất trong kết quả là mức độ tin cậy của bộ phân loại, không phải tỷ lệ di truyền hay kết quả xét nghiệm giống chó.
 
-## 📁 Cấu trúc tài liệu
-
-```text
-DogID_docs/
-├── README.md
-├── screenshots/
-│   ├── README.md
-│   ├── 01-overview/
-│   ├── 02-dog-recognition/
-│   ├── 03-breed-explorer/
-│   ├── 04-personal-library/
-│   ├── 05-pet-management/
-│   ├── 06-dogdex/
-│   ├── 07-share-card/
-│   └── 08-settings/
-└── videos/
-    ├── README.md
-    ├── covers/
-    ├── 01-recognition-comparison.mp4
-    ├── 02-breed-explorer.mp4
-    ├── 03-history-favorites.mp4
-    ├── 04-dogdex.mp4
-    ├── 05-pet-management.mp4
-    ├── 06-share-card.mp4
-    └── 07-settings.mp4
-```
-
 ## 👨‍💻 Tác giả
 
 **Nguyễn Việt Anh — Android Developer**
