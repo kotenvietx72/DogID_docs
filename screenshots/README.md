@@ -8,6 +8,8 @@
 | --- | --- | --- |
 | Tổng quan | Trang chủ | [home.png](01-overview/home.png) |
 | Tổng quan | Giới thiệu ứng dụng | [onboarding.png](01-overview/onboarding.png) |
+| Nhận diện giống chó trên thiết bị | Home · Quét ngay | [recognition-home.png](02-dog-recognition/recognition-home.png) |
+| Nhận diện giống chó trên thiết bị | Camera · Chụp hoặc chọn ảnh | [camera.png](02-dog-recognition/camera.png) |
 | Nhận diện giống chó trên thiết bị | Điều chỉnh ảnh | [photo-review.png](02-dog-recognition/photo-review.png) |
 | Nhận diện giống chó trên thiết bị | Kết quả nhận diện | [recognition-result.png](02-dog-recognition/recognition-result.png) |
 | Nhận diện giống chó trên thiết bị | Top 5 dự đoán | [top-five-predictions.png](02-dog-recognition/top-five-predictions.png) |
@@ -24,3 +26,5 @@
 | Tạo ảnh chia sẻ | Mẫu chia sẻ khác | [share-template.png](07-share-card/share-template.png) |
 | Cài đặt và ngôn ngữ | Cài đặt | [settings.png](08-settings/settings.png) |
 | Cài đặt và ngôn ngữ | Lựa chọn ngôn ngữ | [language-selection.png](08-settings/language-selection.png) |
+
+Home → Camera được chụp bổ sung ngày 20/10/2026. Camera hướng vào ảnh Labrador demo trên màn hình; các ảnh này được cắt thanh hệ thống, giữ nguyên giao diện ứng dụng.

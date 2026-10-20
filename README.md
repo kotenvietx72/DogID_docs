@@ -1,36 +1,26 @@
 # 🐾 DogID — Nhận diện giống chó bằng AI
 
-**Dự án Android của Nguyễn Việt Anh** · Kotlin · Jetpack Compose · AI trên thiết bị
-
-DogID giúp người dùng nhận diện giống chó từ hình ảnh, tra cứu đặc điểm giống và lưu lại hành trình khám phá cùng thú cưng. Ứng dụng kết hợp nhận diện offline với thư viện giống chó có cache, hồ sơ thú cưng và các thẻ ảnh chia sẻ.
-
-Repository này giới thiệu sản phẩm, kiến trúc và các luồng sử dụng bằng ảnh chụp/video từ ứng dụng thật.
-
-**163 giống chó · Top 5 dự đoán · 20 locale · 27 Gradle modules**
+DogID giúp người dùng nhận diện giống chó từ hình ảnh, tra cứu đặc điểm giống và lưu lại hành trình khám phá cùng thú cưng. Ứng dụng kết hợp nhận diện offline với thư viện giống chó
 
 ## 🎬 Video demo theo từng luồng
 
-Chọn riêng từng phần bên dưới. Mỗi video bắt đầu tại **Home**, quay liên tục ở **tốc độ thật (1×)** và đi đủ các bước của luồng được mô tả.
-
 | Video | Luồng giới thiệu | Thời lượng |
 | --- | --- | --- |
-| [▶ 01. Nhận diện và so sánh](videos/01-recognition-comparison.mp4) | Home → Chọn ảnh → Xác nhận ảnh → Crop → AI → Kết quả → Top 5 → Chi tiết giống → So sánh → Home | 01:39 |
-| [▶ 02. Khám phá giống chó](videos/02-breed-explorer.mp4) | Home → Khám phá → Danh mục → Tìm kiếm → Chi tiết giống → Bộ lọc → Home | 01:13 |
-| [▶ 03. Lịch sử và giống yêu thích](videos/03-history-favorites.mp4) | Home → Lịch sử → Lọc → Xem lại kết quả → Cún → Giống yêu thích → Chi tiết giống → Home | 01:09 |
-| [▶ 04. Bộ sưu tập DogDex](videos/04-dogdex.mp4) | Home → DogDex → Đã khám phá → Yêu thích → Chi tiết giống → Home | 00:37 |
-| [▶ 05. Hồ sơ thú cưng](videos/05-pet-management.mp4) | Home → Cún → Form thêm cún → Hồ sơ Milo → Album ảnh → Form chỉnh sửa → Home | 00:59 |
-| [▶ 06. Tạo thẻ chia sẻ](videos/06-share-card.mp4) | Home → Kết quả gần nhất → Studio chia sẻ → Mẫu và tỷ lệ → Xem trước → Lưu PNG → Home | 00:59 |
-| [▶ 07. Cài đặt và trợ giúp](videos/07-settings.mp4) | Home → Cài đặt → Ngôn ngữ → Bộ nhớ → Quyền riêng tư → FAQ → Về DogID → Home | 01:13 |
-
-[Ảnh bìa và hướng dẫn xem từng video](videos/README.md). Nếu GitHub không phát trực tiếp trong trang xem file, chọn **Download raw file** để xem bản MP4.
+| [▶ 01. Nhận diện và so sánh](videos/README.md#video-01) | Home → Chọn ảnh → Xác nhận ảnh → Crop → AI → Kết quả → Top 5 → Chi tiết giống → So sánh → Home | 01:39 |
+| [▶ 02. Khám phá giống chó](videos/README.md#video-02) | Home → Khám phá → Danh mục → Tìm kiếm → Chi tiết giống → Bộ lọc → Home | 01:13 |
+| [▶ 03. Lịch sử và giống yêu thích](videos/README.md#video-03) | Home → Lịch sử → Lọc → Xem lại kết quả → Cún → Giống yêu thích → Chi tiết giống → Home | 01:09 |
+| [▶ 04. Bộ sưu tập DogDex](videos/README.md#video-04) | Home → DogDex → Đã khám phá → Yêu thích → Chi tiết giống → Home | 00:37 |
+| [▶ 05. Hồ sơ thú cưng](videos/README.md#video-05) | Home → Cún → Form thêm cún → Hồ sơ Milo → Album ảnh → Form chỉnh sửa → Home | 00:59 |
+| [▶ 06. Tạo thẻ chia sẻ](videos/README.md#video-06) | Home → Kết quả gần nhất → Studio chia sẻ → Mẫu và tỷ lệ → Xem trước → Lưu PNG → Home | 00:59 |
+| [▶ 07. Cài đặt và trợ giúp](videos/README.md#video-07) | Home → Cài đặt → Ngôn ngữ → Bộ nhớ → Quyền riêng tư → FAQ → Về DogID → Home | 01:13 |
 
 ## 🛠 Công nghệ sử dụng
 
 | Nhóm | Công nghệ và ứng dụng |
 | --- | --- |
 | Ngôn ngữ | Kotlin; Kotlin Coroutines, Flow/StateFlow/SharedFlow |
-| Giao diện | Jetpack Compose, Material 3, Navigation Compose với typed routes, lifecycle-aware state collection |
-| Kiến trúc | Clean Architecture, MVVM, Repository Pattern, Use Cases; tổ chức nhiều module |
+| Giao diện | Jetpack Compose, Material 3, Navigation Compose, lifecycle-aware state collection |
+| Kiến trúc | Clean Architecture, MVVM, Repository Pattern, Use Cases |
 | Dependency Injection | Hilt, KSP |
 | Camera và ảnh đầu vào | CameraX, Android Photo Picker, xử lý EXIF và cắt ảnh |
 | AI | ONNX Runtime Android, YOLOX-Nano, model phân loại FP16; preprocessing và postprocessing trên thiết bị |
@@ -48,7 +38,7 @@ Chọn riêng từng phần bên dưới. Mỗi video bắt đầu tại **Home*
 
 ### Tổng quan
 
-Giao diện Jetpack Compose với hệ thống màu và thành phần dùng chung.
+Giao diện với hệ thống màu và thành phần dùng chung.
 
 <table>
 <tr><th>Trang chủ</th><th>Giới thiệu ứng dụng</th></tr>
@@ -59,20 +49,34 @@ Giao diện Jetpack Compose với hệ thống màu và thành phần dùng chun
 
 ### Nhận diện giống chó trên thiết bị
 
-[▶ Xem video 01: Nhận diện và so sánh](videos/01-recognition-comparison.mp4)
+<details>
+<summary>▶ Video 01: Nhận diện và so sánh</summary>
 
-Chọn ảnh, điều chỉnh vùng cắt, phát hiện chó và phân loại trực tiếp trên thiết bị. Kết quả hiển thị giống phù hợp nhất và Top 5 dự đoán.
+https://github.com/user-attachments/assets/16fd7adc-4fb4-4d60-825e-8c0290ddb2b8
+
+</details>
+
+Từ **Home**, nhấn **Quét ngay** để mở **Camera**, chụp chó hoặc chọn ảnh từ thư viện, sau đó điều chỉnh vùng cắt và nhận diện trực tiếp trên thiết bị. Xem kết quả, Top 5 dự đoán, thông tin giống và so sánh hai giống.
+
+**Luồng ảnh:** Home → Camera → Điều chỉnh ảnh → Kết quả → Top 5 → So sánh. Video 01 minh họa nhánh chọn ảnh từ Home; ảnh Camera bên dưới bổ sung nhánh chụp trực tiếp.
 
 <table>
-<tr><th>Điều chỉnh ảnh</th><th>Kết quả nhận diện</th><th>Top 5 dự đoán</th></tr>
-<tr><td><a href="screenshots/02-dog-recognition/photo-review.png"><img src="screenshots/02-dog-recognition/photo-review.png" width="240" alt="DogID - Điều chỉnh ảnh" /></a></td><td><a href="screenshots/02-dog-recognition/recognition-result.png"><img src="screenshots/02-dog-recognition/recognition-result.png" width="240" alt="DogID - Kết quả nhận diện" /></a></td><td><a href="screenshots/02-dog-recognition/top-five-predictions.png"><img src="screenshots/02-dog-recognition/top-five-predictions.png" width="240" alt="DogID - Top 5 dự đoán" /></a></td></tr>
+<tr><th>1. Home · Quét ngay</th><th>2. Camera · Chụp hoặc chọn ảnh</th><th>3. Điều chỉnh ảnh</th></tr>
+<tr><td><a href="screenshots/02-dog-recognition/recognition-home.png"><img src="screenshots/02-dog-recognition/recognition-home.png" width="240" alt="DogID - Home - nhấn Quét ngay để mở Camera" /></a></td><td><a href="screenshots/02-dog-recognition/camera.png"><img src="screenshots/02-dog-recognition/camera.png" width="240" alt="DogID - Camera với ảnh Labrador demo" /></a></td><td><a href="screenshots/02-dog-recognition/photo-review.png"><img src="screenshots/02-dog-recognition/photo-review.png" width="240" alt="DogID - Điều chỉnh vùng cắt ảnh" /></a></td></tr>
+<tr><th>4. Kết quả nhận diện</th><th>5. Top 5 dự đoán</th><th>6. So sánh hai giống</th></tr>
+<tr><td><a href="screenshots/02-dog-recognition/recognition-result.png"><img src="screenshots/02-dog-recognition/recognition-result.png" width="240" alt="DogID - Kết quả nhận diện Labrador" /></a></td><td><a href="screenshots/02-dog-recognition/top-five-predictions.png"><img src="screenshots/02-dog-recognition/top-five-predictions.png" width="240" alt="DogID - Top 5 giống chó phù hợp" /></a></td><td><a href="screenshots/03-breed-explorer/breed-comparison.png"><img src="screenshots/03-breed-explorer/breed-comparison.png" width="240" alt="DogID - So sánh đặc điểm hai giống chó" /></a></td></tr>
 </table>
 
 <a id="breeds"></a>
 
 ### Tra cứu và so sánh giống chó
 
-[▶ Xem video 02: Khám phá giống chó](videos/02-breed-explorer.mp4)
+<details>
+<summary>▶ Video 02: Khám phá giống chó</summary>
+
+https://github.com/user-attachments/assets/91f8e451-1549-4f55-9858-ebf6d9c2d303
+
+</details>
 
 Khám phá danh mục 163 giống chó, tìm kiếm/lọc, xem thông tin và so sánh hai giống. Catalog được tải qua HTTPS; nội dung đã cache có thể xem lại khi offline.
 
@@ -85,7 +89,12 @@ Khám phá danh mục 163 giống chó, tìm kiếm/lọc, xem thông tin và so
 
 ### Lịch sử và giống yêu thích
 
-[▶ Xem video 03: Lịch sử và giống yêu thích](videos/03-history-favorites.mp4)
+<details>
+<summary>▶ Video 03: Lịch sử và giống yêu thích</summary>
+
+https://github.com/user-attachments/assets/4412ba5a-384c-416a-893a-1fa51d8d394a
+
+</details>
 
 Theo dõi lịch sử nhận diện, mở lại kết quả và quản lý các giống yêu thích.
 
@@ -98,7 +107,12 @@ Theo dõi lịch sử nhận diện, mở lại kết quả và quản lý các 
 
 ### Quản lý hồ sơ thú cưng
 
-[▶ Xem video 05: Hồ sơ thú cưng](videos/05-pet-management.mp4)
+<details>
+<summary>▶ Video 05: Hồ sơ thú cưng</summary>
+
+https://github.com/user-attachments/assets/1b63cf12-314a-4252-8f17-bec7b5b9fdd0
+
+</details>
 
 Tạo và chỉnh sửa hồ sơ với tên, giống, giới tính, ngày sinh, cân nặng, ghi chú, ảnh đại diện và album ảnh. Milo là hồ sơ demo được tạo cho bộ tài liệu này.
 
@@ -111,7 +125,12 @@ Tạo và chỉnh sửa hồ sơ với tên, giống, giới tính, ngày sinh, 
 
 ### Bộ sưu tập DogDex
 
-[▶ Xem video 04: Bộ sưu tập DogDex](videos/04-dogdex.mp4)
+<details>
+<summary>▶ Video 04: Bộ sưu tập DogDex</summary>
+
+https://github.com/user-attachments/assets/505cd08c-7af8-4897-8a2b-6a95e03dba63
+
+</details>
 
 Theo dõi các giống đã khám phá, tiến độ bộ sưu tập, trạng thái đã quét và các giống yêu thích.
 
@@ -124,7 +143,12 @@ Theo dõi các giống đã khám phá, tiến độ bộ sưu tập, trạng th
 
 ### Tạo ảnh chia sẻ
 
-[▶ Xem video 06: Tạo thẻ chia sẻ](videos/06-share-card.mp4)
+<details>
+<summary>▶ Video 06: Tạo thẻ chia sẻ</summary>
+
+https://github.com/user-attachments/assets/76b2c02e-b807-46a3-9280-0eb2b170af6b
+
+</details>
 
 Tùy chọn 6 mẫu thiết kế và 5 tỷ lệ ảnh, xem trước và xuất thẻ PNG để lưu hoặc chia sẻ qua Android Sharesheet.
 
@@ -137,7 +161,12 @@ Tùy chọn 6 mẫu thiết kế và 5 tỷ lệ ảnh, xem trước và xuất 
 
 ### Cài đặt và ngôn ngữ
 
-[▶ Xem video 07: Cài đặt và trợ giúp](videos/07-settings.mp4)
+<details>
+<summary>▶ Video 07: Cài đặt và trợ giúp</summary>
+
+https://github.com/user-attachments/assets/ef49053b-944b-4486-8f2f-f269b67b6582
+
+</details>
 
 Hỗ trợ 20 locale, quản lý bộ nhớ và các mục trợ giúp, quyền riêng tư, thông tin ứng dụng.
 
@@ -160,24 +189,6 @@ flowchart TD
     DATA --> REMOTE[Retrofit / Firebase Hosting]
     AI --> ONNX[ONNX Runtime: Detector + Classifier]
 ```
-
-Sơ đồ thể hiện luồng trách nhiệm; dependency implementation được kết nối qua Hilt.
-
-```text
-app/             Điều phối ứng dụng và navigation
-domain/          Models, repository contracts, use cases (Kotlin/JVM)
-core/            12 module nền tảng và thành phần dùng chung
-data/            3 module: catalog, user, settings
-feature/         10 module giao diện/tính năng
-```
-
-Các quyết định kỹ thuật nổi bật:
-
-- **Pipeline AI trên thiết bị:** kiểm tra ảnh tối, phát hiện chó bằng YOLOX-Nano, kiểm tra số lượng/kích thước/độ mờ, sau đó chạy classifier và tổng hợp Top 5. Model có 191 nhãn đầu ra, được ánh xạ về 163 giống chuẩn hóa.
-- **Quản lý tài nguyên inference:** dispatcher riêng, Mutex giới hạn một lượt inference đồng thời, giải phóng tensor/result bằng `use` và xử lý lỗi thiếu bộ nhớ.
-- **Catalog có cache:** kiểm tra phiên bản, schema và SHA-256; lưu Room, áp dụng TTL và dùng lại nội dung đã tải khi offline. Nhận diện không cần mạng; lần tải nội dung catalog mới cần kết nối.
-- **Dữ liệu người dùng:** tách khỏi cache catalog; giữ migration của Room, quản lý ảnh/draft trong vùng riêng và hàng đợi dọn tệp.
-- **Trải nghiệm Android:** typed navigation, khôi phục trạng thái form bằng SavedStateHandle, bản địa hóa và xuất ảnh qua FileProvider/MediaStore/SAF.
 
 Xác suất trong kết quả là mức độ tin cậy của bộ phân loại, không phải tỷ lệ di truyền hay kết quả xét nghiệm giống chó.
 
@@ -207,10 +218,6 @@ DogID_docs/
     ├── 06-share-card.mp4
     └── 07-settings.mp4
 ```
-
-Ảnh chụp ngày **17/10/2026**; 7 video được quay lại ngày **18/10/2026** trên **Samsung Galaxy A15 (SM-A155F), Android 16**, DogID **1.0.2**. Video giữ tốc độ thật, bắt đầu và kết thúc ở Home; chỉ cắt phần thanh hệ thống và thêm tiêu đề/bước thao tác ngoài giao diện app. Trong video 1, các thumbnail ngoài ảnh demo ở photo picker hệ thống được che.
-
-Xem [danh mục ảnh](screenshots/README.md) và [hướng dẫn video](videos/README.md).
 
 ## 👨‍💻 Tác giả
 

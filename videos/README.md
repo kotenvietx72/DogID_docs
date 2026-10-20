@@ -6,21 +6,23 @@ Mỗi video là một luồng riêng, bắt đầu từ **Home** và quay ở **
 
 | Video | Thời lượng | Dung lượng |
 | --- | --- | --- |
-| [▶ 01. Nhận diện và so sánh](01-recognition-comparison.mp4) | 01:39 | 2.52 MiB |
-| [▶ 02. Khám phá giống chó](02-breed-explorer.mp4) | 01:13 | 1.64 MiB |
-| [▶ 03. Lịch sử và giống yêu thích](03-history-favorites.mp4) | 01:09 | 1.22 MiB |
-| [▶ 04. Bộ sưu tập DogDex](04-dogdex.mp4) | 00:37 | 0.56 MiB |
-| [▶ 05. Hồ sơ thú cưng](05-pet-management.mp4) | 00:59 | 1.35 MiB |
-| [▶ 06. Tạo thẻ chia sẻ](06-share-card.mp4) | 00:59 | 1.48 MiB |
-| [▶ 07. Cài đặt và trợ giúp](07-settings.mp4) | 01:13 | 2.07 MiB |
+| [▶ 01. Nhận diện và so sánh](#video-01) | 01:39 | 2.52 MiB |
+| [▶ 02. Khám phá giống chó](#video-02) | 01:13 | 1.64 MiB |
+| [▶ 03. Lịch sử và giống yêu thích](#video-03) | 01:09 | 1.22 MiB |
+| [▶ 04. Bộ sưu tập DogDex](#video-04) | 00:37 | 0.56 MiB |
+| [▶ 05. Hồ sơ thú cưng](#video-05) | 00:59 | 1.35 MiB |
+| [▶ 06. Tạo thẻ chia sẻ](#video-06) | 00:59 | 1.48 MiB |
+| [▶ 07. Cài đặt và trợ giúp](#video-07) | 01:13 | 2.07 MiB |
+
+<a id="video-01"></a>
 
 ## 01. Nhận diện và so sánh
 
 **Luồng:** Home → Chọn ảnh → Xác nhận ảnh → Crop → AI → Kết quả → Top 5 → Chi tiết giống → So sánh → Home
 
-<a href="01-recognition-comparison.mp4"><img src="covers/01-recognition-comparison.jpg" width="280" alt="Xem video Nhận diện và so sánh" /></a>
+https://github.com/user-attachments/assets/16fd7adc-4fb4-4d60-825e-8c0290ddb2b8
 
-[▶ Xem video](01-recognition-comparison.mp4)
+[Tải bản MP4](01-recognition-comparison.mp4)
 
 <details>
 <summary>Các bước và mốc thời gian</summary>
@@ -44,13 +46,15 @@ Mỗi video là một luồng riêng, bắt đầu từ **Home** và quay ở **
 
 </details>
 
+<a id="video-02"></a>
+
 ## 02. Khám phá giống chó
 
 **Luồng:** Home → Khám phá → Danh mục → Tìm kiếm → Chi tiết giống → Bộ lọc → Home
 
-<a href="02-breed-explorer.mp4"><img src="covers/02-breed-explorer.jpg" width="280" alt="Xem video Khám phá giống chó" /></a>
+https://github.com/user-attachments/assets/91f8e451-1549-4f55-9858-ebf6d9c2d303
 
-[▶ Xem video](02-breed-explorer.mp4)
+[Tải bản MP4](02-breed-explorer.mp4)
 
 <details>
 <summary>Các bước và mốc thời gian</summary>
@@ -70,13 +74,15 @@ Mỗi video là một luồng riêng, bắt đầu từ **Home** và quay ở **
 
 </details>
 
+<a id="video-03"></a>
+
 ## 03. Lịch sử và giống yêu thích
 
 **Luồng:** Home → Lịch sử → Lọc → Xem lại kết quả → Cún → Giống yêu thích → Chi tiết giống → Home
 
-<a href="03-history-favorites.mp4"><img src="covers/03-history-favorites.jpg" width="280" alt="Xem video Lịch sử và giống yêu thích" /></a>
+https://github.com/user-attachments/assets/4412ba5a-384c-416a-893a-1fa51d8d394a
 
-[▶ Xem video](03-history-favorites.mp4)
+[Tải bản MP4](03-history-favorites.mp4)
 
 <details>
 <summary>Các bước và mốc thời gian</summary>
@@ -94,13 +100,15 @@ Mỗi video là một luồng riêng, bắt đầu từ **Home** và quay ở **
 
 </details>
 
+<a id="video-04"></a>
+
 ## 04. Bộ sưu tập DogDex
 
 **Luồng:** Home → DogDex → Đã khám phá → Yêu thích → Chi tiết giống → Home
 
-<a href="04-dogdex.mp4"><img src="covers/04-dogdex.jpg" width="280" alt="Xem video Bộ sưu tập DogDex" /></a>
+https://github.com/user-attachments/assets/505cd08c-7af8-4897-8a2b-6a95e03dba63
 
-[▶ Xem video](04-dogdex.mp4)
+[Tải bản MP4](04-dogdex.mp4)
 
 <details>
 <summary>Các bước và mốc thời gian</summary>
@@ -115,13 +123,15 @@ Mỗi video là một luồng riêng, bắt đầu từ **Home** và quay ở **
 
 </details>
 
+<a id="video-05"></a>
+
 ## 05. Hồ sơ thú cưng
 
 **Luồng:** Home → Cún → Form thêm cún → Hồ sơ Milo → Album ảnh → Form chỉnh sửa → Home
 
-<a href="05-pet-management.mp4"><img src="covers/05-pet-management.jpg" width="280" alt="Xem video Hồ sơ thú cưng" /></a>
+https://github.com/user-attachments/assets/1b63cf12-314a-4252-8f17-bec7b5b9fdd0
 
-[▶ Xem video](05-pet-management.mp4)
+[Tải bản MP4](05-pet-management.mp4)
 
 <details>
 <summary>Các bước và mốc thời gian</summary>
@@ -140,13 +150,15 @@ Mỗi video là một luồng riêng, bắt đầu từ **Home** và quay ở **
 
 </details>
 
+<a id="video-06"></a>
+
 ## 06. Tạo thẻ chia sẻ
 
 **Luồng:** Home → Kết quả gần nhất → Studio chia sẻ → Mẫu và tỷ lệ → Xem trước → Lưu PNG → Home
 
-<a href="06-share-card.mp4"><img src="covers/06-share-card.jpg" width="280" alt="Xem video Tạo thẻ chia sẻ" /></a>
+https://github.com/user-attachments/assets/76b2c02e-b807-46a3-9280-0eb2b170af6b
 
-[▶ Xem video](06-share-card.mp4)
+[Tải bản MP4](06-share-card.mp4)
 
 <details>
 <summary>Các bước và mốc thời gian</summary>
@@ -164,13 +176,15 @@ Mỗi video là một luồng riêng, bắt đầu từ **Home** và quay ở **
 
 </details>
 
+<a id="video-07"></a>
+
 ## 07. Cài đặt và trợ giúp
 
 **Luồng:** Home → Cài đặt → Ngôn ngữ → Bộ nhớ → Quyền riêng tư → FAQ → Về DogID → Home
 
-<a href="07-settings.mp4"><img src="covers/07-settings.jpg" width="280" alt="Xem video Cài đặt và trợ giúp" /></a>
+https://github.com/user-attachments/assets/ef49053b-944b-4486-8f2f-f269b67b6582
 
-[▶ Xem video](07-settings.mp4)
+[Tải bản MP4](07-settings.mp4)
 
 <details>
 <summary>Các bước và mốc thời gian</summary>
@@ -203,4 +217,6 @@ Mỗi video là một luồng riêng, bắt đầu từ **Home** và quay ở **
 
 ## Xem trên GitHub
 
-Nhấn tên hoặc ảnh bìa của video muốn xem. Nếu trang xem file không phát trực tiếp, chọn **Download raw file** để mở/tải MP4. Có thể dùng URL attachment GitHub sau khi upload để nhúng player cho từng video trong README.
+Chọn video trong bảng để đến đúng trình phát, sau đó nhấn **Play**. Các video được đính kèm trực tiếp trên GitHub và nhúng bằng URL attachment; không cần mở trang tệp `.mp4` trong repository. Bản MP4 trong thư mục này được giữ để tải về.
+
+Khi thay video, tải bản mới bằng nút **Attach files** trong trình sửa README của GitHub, rồi thay URL attachment ở cả README chính và mục tương ứng trong file này. Giữ URL attachment trên một dòng riêng để GitHub hiển thị trình phát.
